@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f1f5f9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e65100;
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: #2563eb;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 5px;
+}
+
+main {
+    max-width: 850px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.member-card {
+    background-color: #f8fafc;
+    border: 1px solid #dbeafe;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.member-card a {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.member-card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 8px;
+}
